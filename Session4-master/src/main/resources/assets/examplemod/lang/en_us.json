@@ -1,0 +1,19 @@
+{
+  "item.examplemod.acmium": "ACMium",
+  "item.examplemod.raw_acmium": "Raw ACMium",
+  "item.examplemod.example_sword": "ACMium Sword",
+  "item.examplemod.example_pickaxe": "ACMium Pickaxe",
+  "item.examplemod.example_axe": "ACMium Axe",
+  "item.examplemod.example_hoe": "ACMium Hoe",
+  "item.examplemod.example_helmet": "ACMium Helmet",
+  "item.examplemod.example_chestpiece": "ACMium Chestpiece",
+  "item.examplemod.example_leggings": "ACMium Leggings",
+  "item.examplemod.example_boots": "ACMium Boots",
+  "item.examplemod.chomper_spawn_egg": "Chomper Spawn Egg",
+
+  "block.examplemod.acm_block": "Block of ACM",
+  "block.examplemod.acm_ore": "ACMium ore",
+  "block.examplemod.deepslate_acm_ore": "Deepslate ACMium Ore",
+
+  "itemGroup.tutorialtab": "ACMium Tutorial Tab"
+}
