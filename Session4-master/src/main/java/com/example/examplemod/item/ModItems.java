@@ -49,6 +49,11 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntityTypes.CHOMPER, 0x2c68ca, 0xcde0ff,
                     new Item.Properties().tab(ModCreativeModTab.TUTORIAL_TAB)));
 
+    public static final RegistryObject<Item> CHEDDAR_SLICE = ITEMS.register("cheddar_slice",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.TUTORIAL_TAB)));
+
+    public static final RegistryObject<Item> SWISS_SLICE = ITEMS.register("swiss_slice",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.TUTORIAL_TAB)));
 
 
     public static void register(IEventBus eventBus) {

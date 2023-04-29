@@ -37,8 +37,13 @@ public class ModBlocks {
                     .strength(0f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModTab.TUTORIAL_TAB);
 
+    public static final RegistryObject<Block> CHEDDAR_BLOCK = registerBlock("cheddar_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0f).requiresCorrectToolForDrops()), ModCreativeModTab.TUTORIAL_TAB);
 
-
+    public static final RegistryObject<Block> SWISS_BLOCK = registerBlock("swiss_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0f).requiresCorrectToolForDrops()), ModCreativeModTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

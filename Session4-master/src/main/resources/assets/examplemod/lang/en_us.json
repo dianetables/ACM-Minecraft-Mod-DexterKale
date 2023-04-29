@@ -15,5 +15,11 @@
   "block.examplemod.acm_ore": "ACMium ore",
   "block.examplemod.deepslate_acm_ore": "Deepslate ACMium Ore",
 
+  "item.examplemod.cheddar_slice": "Cheddar Slice",
+  "item.examplemod.swiss_slice": "Swiss Slice",
+
+  "block.examplemod.cheddar_block": "Cheddar Block",
+  "block.examplemod.swiss_block": "Swiss Block",
+
   "itemGroup.tutorialtab": "ACMium Tutorial Tab"
 }
