@@ -1,6 +1,7 @@
 package com.example.examplemod.event;
 import com.example.examplemod.ExampleMod;
 import com.example.examplemod.entity.ModEntityTypes;
+import com.example.examplemod.entity.custom.BEntity;
 import com.example.examplemod.entity.custom.ChomperEntity;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -33,6 +34,7 @@ public class ModEvents {
             @SubscribeEvent
             public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
                 event.put(ModEntityTypes.CHOMPER.get(), ChomperEntity.setAttributes());
+                event.put(ModEntityTypes.B.get(), BEntity.setAttributes());
             }
         }
     }

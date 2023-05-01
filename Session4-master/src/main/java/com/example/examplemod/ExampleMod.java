@@ -3,6 +3,7 @@ package com.example.examplemod;
 
 import com.example.examplemod.block.ModBlocks;
 import com.example.examplemod.entity.ModEntityTypes;
+import com.example.examplemod.entity.client.BRenderer;
 import com.example.examplemod.entity.client.ChomperRenderer;
 import com.example.examplemod.item.ModItems;
 import com.example.examplemod.world.feature.ModConfiguredFeatures;
@@ -93,6 +94,7 @@ public class ExampleMod
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
             EntityRenderers.register(ModEntityTypes.CHOMPER.get(), ChomperRenderer::new);
+            EntityRenderers.register(ModEntityTypes.B.get(), BRenderer::new);
         }
     }
 }
